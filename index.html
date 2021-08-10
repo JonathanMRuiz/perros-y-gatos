@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/567fef2613.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+    
+    <title>Jonathan Matias Ruiz</title>
+</head>
+<body>
+    <main>
+        <div class="contenedor">
+            <header>
+                <div class="logo">
+                    <h1>Jonathan Ruiz</h1>
+                    <p>Front-End Devoloper Student</p>
+                </div>
+                <form action="">
+                    <input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Filtrar perros o gatos">
+                </form>
+                <div class="categorias" id="categorias">
+                    <a href="#" class="activo">Todos</a>
+                    <a href="#">Perros</a>
+                    <a href="#">Gatos</a>
+                    <a href="#">Perros y gatos</a>
+                </div>
+            </header>
+            
+
+            <section class="grid" id="grid">
+                <!-- Gatos -->
+                <div class="item" data-categoria="gatos" 
+                                  data-etiquetas="quimera gatos "
+                                  data-descripcion="Lorem ipsum dolor sit amet, consectet"
+                >
+                    <div class="item-contenido">
+                        <img src="img/gato1.jpg" alt="gatoquimera" >
+                    </div>
+                </div>
+
+                <div class="item" data-categoria="gatos" 
+                                  data-etiquetas="gris gatos "
+                                  data-descripcion="Lorem ipsum dolor sit amet, consectet"
+                >
+                    <div class="item-contenido">
+                        <img src="img/gato2.jpg" alt="gatogris" >
+                    </div>
+                </div>
+
+                <div class="item" data-categoria="gatos" 
+                                  data-etiquetas="naranja gatos "
+                                  data-descripcion="Lorem ipsum dolor sit amet, consectet"
+                >
+                    <div class="item-contenido">
+                        <img src="img/gato3.jpg" alt="gatonaranja" >
+                    </div>
+                </div>
+                <!-- Perros -->
+
+                <div class="item" data-categoria="perros" 
+                                  data-etiquetas="negro perros  labrador-negro"
+                                  data-descripcion="Lorem ipsum dolor sit amet, consectet"
+                >
+                    <div class="item-contenido">
+                        <img src="img/perro1.jpg" alt="labradores-negros" >
+                    </div>
+                </div>
+
+                <div class="item" data-categoria="perros" 
+                                  data-etiquetas="golden perros  labrador-golden"
+                                  data-descripcion="Lorem ipsum dolor sit amet, consectet"
+                >
+                    <div class="item-contenido">
+                        <img src="img/perro2.jpg" alt="labradores-golden" >
+                    </div>
+                </div>
+
+                <div class="item" data-categoria="perros" 
+                                  data-etiquetas="marron perros  labrador-marron"
+                                  data-descripcion="Lorem ipsum dolor sit amet, consectet"
+                >
+                    <div class="item-contenido">
+                        <img src="img/perro3.jpg" alt="labradores-marron" >
+                    </div>
+                </div>
+
+                <!-- Perros y Gatos -->
+
+                <div class="item" data-categoria="perros y gatos" 
+                                  data-etiquetas="marron perros  labrador-marron"
+                                  data-descripcion="Lorem ipsum dolor sit amet, consectet"
+                >
+                    <div class="item-contenido">
+                        <img src="img/perros-y-gatos1.jpg" alt="gato-perro" >
+                    </div>
+                </div>
+
+                <div class="item" data-categoria="perros y gatos" 
+                                  data-etiquetas="perroygato"
+                                  data-descripcion="Lorem ipsum dolor sit amet, consectet"
+                >
+                    <div class="item-contenido">
+                        <img src="img/perros-y-gatos2.jpg" alt="gato-perro" >
+                    </div>
+                </div>
+
+                
+            </section>
+
+            <section class="overlay avtivo" id="overlay">
+                <div class="contenedor-img">
+                    <button><i class="fas fa-times"></i></button>
+                    <img src="" alt="">
+                </div>
+                <p class="descripcion"></p>
+            </section>
+
+            <footer class="contenedor">
+                <div class="redes-sociales">
+                    <div class="contenedor-icono">
+                        <a href="https://www.instagram.com/matiasj.rz" target="_blank" class="instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="contenedor-icono">
+                        <a href="https://www.facebook.com/Jonathan.MatiasRz/" target="_blank" class="facebook">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                    </div>
+                    <div class="contenedor-icono">
+                        <a href="https://github.com/JonathanMRuiz/" target="_blank" class="github">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+
+                </div>
+                    
+
+                <div class="creado-por"><p>Hecho por Jonathan Ruiz</p></div>
+            </footer>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+        <script src="main.js"></script>
+    </main>
+</body>
+</html>
+
